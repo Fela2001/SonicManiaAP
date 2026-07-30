@@ -1,4 +1,4 @@
-**Sonic Mania Plus Archipelago**
+Sonic Mania Plus Archipelago
 
 **What is Randomized?**
 
