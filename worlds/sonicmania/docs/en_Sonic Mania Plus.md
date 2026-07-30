@@ -1,1 +1,13 @@
-yo yo I'm gonna be edited!
+**Sonic Mania Plus Archipelago**
+
+**What is Randomized?**
+
+**Current Goal**
+
+**Options**
+
+**Releases**
+
+**Installation**
+
+**Roadmap**
