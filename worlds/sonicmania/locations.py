@@ -44,7 +44,7 @@ LOCATION_NAME_TO_ID = {
     "Special Ring inside gated walls at the bottom of the first yellow block section in Chemical Plant Act 1": 33,
     "Special Ring in leftward mini area after a ramp launch in Chemical Plant Act 1": 34,
     "Special Ring inside gated walls at the bottom of the second and longer yellow block section in Chemical Plant Act 1": 35,
-    "Special Ring right byside a sticky platform lift in Chemical Plant Act 2": 36,
+    "Special Ring right beside a sticky platform lift in Chemical Plant Act 2": 36,
     "Special Ring near the start of Chemical Plant Act 2 with floating platforms, bouncy floor and a sticky platform lift": 37,
     "Special Ring in a hidden area covered with yellow blocks near the end of Chemical Plant Act 2": 38,
     "Special Ring near the start of Studiopolis Act 1 behind yellow lit windows": 39,
@@ -211,7 +211,7 @@ def create_regular_locations(world: SonicManiaPlusWorld) -> None:
     chemical_plant_locations = get_location_names_with_ids(
         ["Chemical Plant Act 1 Clear", "Chemical Plant Act 2 Clear", "Special Ring hidden behind spring and gated walls in the upper path of Chemical Plant Act 1",
          "Special Ring inside gated walls at the bottom of the first yellow block section in Chemical Plant Act 1", "Special Ring in leftward mini area after a ramp launch in Chemical Plant Act 1", 
-         "Special Ring inside gated walls at the bottom of the second and longer yellow block section in Chemical Plant Act 1", "Special Ring right byside a sticky platform lift in Chemical Plant Act 2", 
+         "Special Ring inside gated walls at the bottom of the second and longer yellow block section in Chemical Plant Act 1", "Special Ring right beside a sticky platform lift in Chemical Plant Act 2", 
          "Special Ring near the start of Chemical Plant Act 2 with floating platforms, bouncy floor and a sticky platform lift", "Special Ring in a hidden area covered with yellow blocks near the end of Chemical Plant Act 2"]
     )
     chemical_plant.add_locations(chemical_plant_locations, SonicManiaPlusLocation)
