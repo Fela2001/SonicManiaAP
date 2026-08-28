@@ -101,7 +101,7 @@ LOCATION_NAME_TO_ID = {
     "Special Ring reached by bouncing off a hidden red spring in a background shifter section in Metallic Madness Act 2": 90,
     "Special Ring nearby the second checkpoint that is above a magnetic orb in Titanic Monarch Act 1": 91, # KNUCKLES AND TAILS ONLY, make sure to keep that in mind for logic
     "Special Ring above a magnetic orb in a hidden tunnel that is left to a mini loop-de-loop in Titanic Monarch Act 1": 92,
-    "Special Ring hidden behind breakable yellow bouncy bumpers in Metallic Madness Act 2": 93,
+    "Special Ring hidden behind breakable yellow bouncy bumpers in Titanic Monarch Act 2": 93,
     "Special Stage 1 Clear": 94,
     "Special Stage 2 Clear": 95,
     "Special Stage 3 Clear": 96,
@@ -289,7 +289,7 @@ def create_regular_locations(world: SonicManiaPlusWorld) -> None:
     titanic_monarch_locations = get_location_names_with_ids(
         ["Titanic Monarch Act 1 Clear", "Titanic Monarch Act 2 Clear", "Special Ring nearby the second checkpoint that is above a magnetic orb in Titanic Monarch Act 1", 
          "Special Ring above a magnetic orb in a hidden tunnel that is left to a mini loop-de-loop in Titanic Monarch Act 1", 
-         "Special Ring hidden behind breakable yellow bouncy bumpers in Metallic Madness Act 2"]
+         "Special Ring hidden behind breakable yellow bouncy bumpers in Titanic Monarch Act 2"]
     )
     titanic_monarch.add_locations(titanic_monarch_locations, SonicManiaPlusLocation)
 
